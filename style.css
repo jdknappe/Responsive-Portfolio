@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color:#3c3c5d;
+}
+
+.container {
+background-color: #3c3c5d;
+margin: 10px;
+position: absolute
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#photoContainer {
+    align-content: center;
+}
+
+#dpFirst {
+    width: 600px;
+    height:400px;
+    border: solid 1px;
+    align-content: center;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+#dpSecond {
+    width: 600px;
+    height:400px;
+    border: solid 1px;
+    align-content: center;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+#bioContainer {
+background-color: gold;
+color: #666666;
+text-align: center;
+margin: 10px;
+padding: 10px;
+}
+
+#favSongsContainer {
+background-color: silver;
+text-align: left;
+margin: 10px;
+padding: 10px;
+}
+
+#mvContainer {
+background-color: rebeccapurple;
+text-align: center;
+align-content: center;
+margin: 10px;
+padding: 10px;
+}
+
+footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    /* width: 100%; */
+    background-color: #0000ff;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+/* Need review Media Queries */
+
+@media screen and (max-width: 768px) {
+
+}
+/* Need review Media Queries */
+
+@media screen and (max-width: 640px) {
+
+}
+/* Need review Media Queries */
