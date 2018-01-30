@@ -74,16 +74,37 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-
+    .container {
+        width: 100%;
+    }
+    img {
+        width: 600px;
+        height: auto;
+    }
 }
 /* Need review Media Queries */
 
 @media screen and (max-width: 768px) {
-
+    .container {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 /* Need review Media Queries */
 
 @media screen and (max-width: 640px) {
-
+    header {
+        position: static;
+    }
+    .container {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 /* Need review Media Queries */
